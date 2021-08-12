@@ -70,7 +70,7 @@ theme.load_syntax = function()
 		Structure = { c.vscBlue, nil, 'none', nil},
 		Typedef = { c.vscBlue, nil, 'none', nil},
 		Special = { c.vscYellowOrange, nil, 'none', nil},
-		SpecialChar = { c.vscFront, nil, 'none', nil},
+		SpecialChar = { c.vscYellowOrange, nil, 'none', nil},
 		Tag = { c.vscFront, nil, 'none', nil},
 		Delimiter = { c.vscFront, nil, 'none', nil},
 		SpecialComment = { c.vscGreen, nil, 'none', nil},
@@ -84,6 +84,18 @@ theme.load_syntax = function()
 		SpellCap = { c.vscRed, c.vscBack, 'undercurl', c.vscRed},
 		SpellRare = { c.vscRed, c.vscBack, 'undercurl', c.vscRed},
 		SpellLocal = { c.vscRed, c.vscBack, 'undercurl', c.vscRed},
+
+    -- vim-lsp-cxx-highlight
+		cxxFunction = { c.vscYellow, nil, 'none', nil},
+		cxxParameter = { c.vscLightBlue, nil, 'none', nil},
+    cxxFileVariableStatic = { c.vscLightBlue, nil, 'none', nil},
+    cxxStruct = { c.vscBlueGreen, nil, 'none', nil },
+    cxxStructField = { c.vscLightBlue, nil, 'none', nil}, 
+    cxxTypeAlias = { c.vscBlueGreen, nil, 'none', nil },
+    cxxEnum = { c.vscBlue, nil, 'none', nil}, 
+    cxxMacro = { c.vscBlue, nil, 'none', nil},
+    cxxEnumMember = { c.vscLightBlueGreen, nil, 'none', nil}, 
+		cxxVariable = { c.vscLightBlue, nil, 'none', nil},
 
 		-- Treesitter
 		TSError = { c.vscRed, nil, 'none', nil},
